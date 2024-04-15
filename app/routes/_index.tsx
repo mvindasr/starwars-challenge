@@ -31,7 +31,7 @@ export default function Index() {
 
                 <div className='w-full lg:flex lg:justify-end'>
                     <a  
-                        href='https://github.com/mvindasr'
+                        href='https://github.com/mvindasr/starwars-challenge'
                         target='_blank'
                         className='bellefairFont text-center mx-auto lg:mx-0 text-[1.00rem] md:text-[2rem] text-[#0B0D17] tracking-[2.7px] bg-white 
                         h-[9.375rem] w-[9.375rem] md:h-[15.125rem] md:w-[15.125rem] lg:h-[17.125rem] lg:w-[17.125rem] aspect-square

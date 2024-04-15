@@ -1,8 +1,23 @@
-# Welcome to Remix + Vite!
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
 
-## Development
+# Star Wars Coding Challenge
+
+This challenge task participants with creating a homepage dedicated to all things Star Wars.  The TechStack required for the challenge is detailed below:
+
+- React
+- Remix 
+- Tailwind CSS 
+- ShadCN Components 
+- Star Wars API 
+- TypeScript 
+
+## Development & Review
+
+Install dependencies:
+
+```shellscript
+npm install
+```
 
 Run the Vite dev server:
 
@@ -10,27 +25,15 @@ Run the Vite dev server:
 npm run dev
 ```
 
-## Deployment
+## Features in V1.0
 
-First, build your app for production:
+Responsive landing page with routing
 
-```sh
-npm run build
-```
+![alt text](image.png)
 
-Then run the app in production mode:
+People Page using endpoint from Star Wars API to show Star Wars characters cards
 
-```sh
-npm start
-```
+![alt text](image-1.png)
 
-Now you'll need to pick a host to deploy it to.
+Pages .tsx files and styles included, planets data fetch from API, imported ShadCN components available.
 
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
