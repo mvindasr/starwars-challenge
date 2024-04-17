@@ -2,14 +2,14 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Home" },
+    { name: "description", content: "Star Wars Challenge Home" },
   ];
 };
 
 export default function Index() {
   return (
-    <main id="content" className='homePage'>
+    <main id="content" className='bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-cover min-h-[100vh] bg-top'>
       <div className='min-h-screen grid place-items-center px-6 pt-[10%] lg:grid-cols-2 lg:gap-x-[2rem] lg:items-end lg:pb-[6rem] lg:px-28'>
                 
                 <article className=' w-full text-white text-center lg:text-left'>

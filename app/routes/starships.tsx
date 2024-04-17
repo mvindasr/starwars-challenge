@@ -2,7 +2,7 @@ export default function StarShipsPage() {
     
 
     return (
-        <div className='planets scroll-smooth'>
+        <div className='bg-planets-mobile md:bg-planets-tablet lg:bg-planets-desktop bg-cover min-h-[100vh] bg-top scroll-smooth'>
             <main className='max-w-[80rem] px-[2rem] mx-auto pb-[2rem] md:pb-[4rem] grid min-h-screen pt-[20%] lg:pt-[12%] '>
                 <h1 
                     className='text-white text-center md:text-left barlow-CondensedFont lg:pl-14 

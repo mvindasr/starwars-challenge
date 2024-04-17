@@ -5,7 +5,7 @@ export default function PeoplePage() {
     const people : Person[] = useLoaderData(); 
   
     return (
-        <div className='people'>
+        <div className='bg-people-mobile md:bg-people-tablet lg:bg-people-desktop bg-cover min-h-[100vh] bg-top'>
             <main className='max-w-[100rem] px-[2rem] mx-auto grid min-h-screen pt-[20%] lg:pt-[12%] '>
                 <h1 
                     className='text-white text-center md:text-left barlow-CondensedFont lg:pl-11

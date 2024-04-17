@@ -17,6 +17,17 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'home-desktop': "url('/assets/background-home-desktop.jpg')",
+        'home-mobile': "url('/assets/background-home-mobile.jpg')",
+        'home-tablet': "url('/assets/background-home-tablet.jpg')",
+        'people-tablet': "url('/assets/background-people-tablet.jpg')",
+        'people-mobile': "url('/assets/background-people-mobile.jpg')",
+        'people-desktop': "url('/assets/background-people-desktop.jpg')",
+        'planets-tablet': "url('/assets/background-planets-tablet.jpg')",
+        'planets-mobile': "url('/assets/background-planets-mobile.jpg')",
+        'planets-desktop': "url('/assets/background-planets-desktop.jpg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
